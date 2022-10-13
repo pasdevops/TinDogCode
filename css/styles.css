@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 
 }
 
@@ -31,6 +31,8 @@ h2 {
  p {
     color: #8f8f8f;
  }
+
+
 
 /* Navigation Bar */
 
@@ -62,22 +64,26 @@ h2 {
 
 }
 
+/* Z-INDEX HAS NOT WORKED */
 
 /* Title image */
 .title-image {
     width: 60% ;
     transform: rotate(25deg);
+    position: absolute;
+    right: 10%; 
 
 }
-
 /* features section  */
 #features{
 padding: 7% 15%;
+background-color: #fff;
+position: relative;
 }
-
 
 .features-box{
 text-align: center;
+padding: 4.5; 
 }
 .icon{
     color:#ef8172; 
@@ -106,11 +112,21 @@ text-align: center;
 }
 
 #press{
-   background-color:#ef8172 ; 
+   background-color:#ef8172; 
    text-align: center;
    padding-bottom: 3%;
 }
 .press-logo{
     width: 20%;
     margin: 20px 20px 50px;
+}
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    font-color:#ef817;
+}
+.pricing-column{
+    padding: 3% 2%:
 }
